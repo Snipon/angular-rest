@@ -1,0 +1,41 @@
+.std-teaser,
+%std-teaser {
+  @include span-columns(12);
+  background-color: $bg;
+  border: 1px solid $fg;
+  margin: 10px 0;
+
+  figure {
+    @include span-columns(4);
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5em;
+  }
+
+  .content {
+    @include span-columns(8);
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    padding: 1em;
+
+    &.no-image {
+      @include span-columns(12);
+    }
+  }
+
+  $mobile: new-breakpoint(max-width 640px);
+
+  @include media($mobile) {
+    border-width: 0 0 1px 0;
+    figure,
+    .content {
+      @include span-columns(12);
+    }
+  }
+}

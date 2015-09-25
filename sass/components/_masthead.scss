@@ -1,0 +1,22 @@
+.masthead {
+  background-color: $fg;
+  color: $bg;
+  padding: 20px 40px;
+
+  .site-name {
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0 auto;
+    max-width: $max-width;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    &:before {
+      content: '🍔';
+      margin-right: 0.5em;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.page,
+%page {
+  @include outer-container;
+  margin: 0 auto;
+  max-width: $max-width;
+}

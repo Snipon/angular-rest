@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "authors": [
+    "Simon Larsson <simon@reload.dk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs" : "latest",
+    "requirejs" : "latest"
+  }
+}

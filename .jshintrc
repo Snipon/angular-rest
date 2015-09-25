@@ -1,0 +1,11 @@
+{
+  "globals" : {
+    "angular" : false,
+    "console" : false,
+    "define" : false,
+    "document" : false,
+    "jQuery" : false,
+    "require" : false,
+    "window" : false
+  }
+}
