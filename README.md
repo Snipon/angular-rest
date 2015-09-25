@@ -6,16 +6,16 @@ Make sure you have [node](https://nodejs.org) installed.
 
 Install bower.
 
-    `npm -g install bower`
+    npm -g install bower
 
 Install bower packages.
 
-    `bower install`
+    bower install
 
 Install npm packages.
 
-    `npm install´
+    npm install
 
 Run tasks and watch with gulp.
 
-    `run gulp`
+    run gulp
