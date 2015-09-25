@@ -3,6 +3,8 @@
     "angular" : false,
     "console" : false,
     "define" : false,
+    "Drupal" : false,
+    "drupalSettings" : false,
     "document" : false,
     "jQuery" : false,
     "require" : false,

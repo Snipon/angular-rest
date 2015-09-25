@@ -7,13 +7,13 @@ var
 ;
 
 gulp.task('jshint', function() {
-  return gulp.src(['gulfile.js', 'index.js', './js/*.js', 'index.js'])
+  return gulp.src(['gulfile.js', './js/**/*.js', 'index.js'])
     .pipe(jshint())
     .pipe(jshint.reporter(stylish));
 });
 
 gulp.task('jshint:watch', function () {
-  gulp.watch(['gulfile.js', 'index.js', './js/*.js', 'index.js'], ['jshint']);
+  gulp.watch(['gulfile.js', './js/**/*.js'], ['jshint']);
 });
 
 gulp.task('sass', function () {

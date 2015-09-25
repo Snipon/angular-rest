@@ -1,7 +1,7 @@
-define(['app'], function (app) {
+define(['./module'], function (controllers) {
   'use strict';
 
-  app.controller('testAppController', function ($scope, $http, $sce, $location) {
+  controllers.controller('teaserListController', function ($scope, $http, $sce, $location) {
     // Get path.
     var path = ($location.path());
 

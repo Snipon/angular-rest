@@ -3,6 +3,5 @@
   <div class="content" ng-class="teaser.image ? '' : 'no-image'">
     <h1 class="teaser-heading" ng-bind="teaser.title" ng-click="goto(teaser.type)"></h1>
     <div class="teaser-body" ng-bind-html="renderHtml(teaser.body)"></div>
-    <button ng-click="bookmarkThis()">Bookmark</button>
   </div>
 </article>

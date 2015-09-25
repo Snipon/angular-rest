@@ -1,11 +1,10 @@
-define(['angular'], function (angular) {
+define([
+  'angular',
+  'controllers/index'
+], function (ng) {
   'use strict';
 
-  var app = angular.module('testApp', []);
-
-  app.init = function () {
-    angular.bootstrap(document, ['testApp']);
-  };
-
-  return app;
+  return ng.module('app', [
+    'app.controllers'
+  ]);
 });

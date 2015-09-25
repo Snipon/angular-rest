@@ -3,14 +3,15 @@
   "description": "Sandbox",
   "version": "0.0.1",
   "devDependencies": {
-    "socket.io" : "latest",
-    "pg" : "latest",
-    "gulp" : "latest",
-    "gulp-jshint" : "latest",
-    "jshint-stylish" : "latest",
-    "node-sass" : "latest",
-    "gulp-sass" : "latest",
-    "node-bourbon" : "latest",
-    "node-neat" : "latest"
+    "dependo": "^0.1.6",
+    "gulp": "latest",
+    "gulp-jshint": "latest",
+    "gulp-sass": "latest",
+    "jshint-stylish": "latest",
+    "node-bourbon": "latest",
+    "node-neat": "latest",
+    "node-sass": "latest",
+    "pg": "latest",
+    "socket.io": "latest"
   }
 }
